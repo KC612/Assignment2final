@@ -1,0 +1,119 @@
+body{
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size:100%;
+    color: purple;
+    background-color: azure;
+    border: 3px;
+    margin:10px}
+    
+
+h1, h2 {
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px 1px  #4b0091;
+    margin: .5em 0 .25em;
+    padding: 10px;
+}
+aside {
+    width: 350px;
+    float: right;
+    padding:20px;
+    background-color:rgb(196,101,255);
+    color: purple;
+    margin-right: 20px;
+}
+img {
+    border-color: purple;
+    border-radius: 4px;
+    padding: 5px;
+    width: 200px;
+    height:600px;
+    box-shadow: 0 0 2px 1px rgba (purple) ;
+}
+a:link { color: rgb(136, 0, 255) }
+a:visited {color: purple}
+a:hover, a:focus {color:fuchsia;}
+
+form {
+    border-radius: 5px;
+    border-color: blueviolet;
+    padding: 2px;
+    margin: 2px;
+}
+ul, ol,li {
+    padding: 5px;
+    margin: 10px;
+}
+.gradient-button {
+    background-image: linear-gradient(to right, #ff0000, #4b0091); /* Gradient colors */
+    border: none; /* No border */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Padding */
+    font-size: 16px; /* Font size */
+    font-weight: bold;
+    cursor: pointer; /* Cursor style */
+    border-radius: 5px; /* Border radius */
+    transition: background-image 0.3s; /* Smooth transition for background change */
+  }
+  
+  /* Style for hover effect */
+  .gradient-button:hover {
+    background-image: linear-gradient(to right, #ff6a00, #bc09ee); /* Gradient colors on hover */
+  }
+  .button-container{
+      display: flex; /* Use flexbox for layout */
+      margin: 20px; /* Add some top margin */}
+  
+form, script, h1 {text-align: center;}
+
+  /* Style for the form */
+form {
+  border: 2px solid blueviolet; /* Add a border to the form */
+  padding: 50px; /* Add padding for spacing */
+  max-width: 400px; /* Limit the width of the form */
+  margin: auto; /* Center the form horizontally */
+  }
+
+
+  /* Style for required input fields */
+  input:required {
+  border-color: red; /* Highlight required input fields in red */
+  }
+
+  address {
+    padding: 10px;
+    margin: 10px;
+    line-height: 50px;
+  }
+  footer    {
+    padding: 10px;
+    margin: 10px;
+    }
+    .myDiv {
+        border: 5px outset rgb(73, 0, 137);
+        background-color: rgb(136, 0, 255);
+        color: aliceblue;    
+        text-align: center;
+        text-shadow: 2px 2px 2px  #4b0091;
+        }
+        
+      
+      * {
+        box-sizing: border-box;
+      }
+      
+      .column {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+      }
+      
+      /* Clearfix (clear floats) */
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+    #p0 {text-indent: 2em;}
+
+      
